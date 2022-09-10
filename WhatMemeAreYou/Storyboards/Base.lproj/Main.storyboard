@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WhatMemeAreYou" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="YPz-kf-mtn">
+                                <rect key="frame" x="86.5" y="289.5" width="202.5" height="88"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Какой ты мем?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKA-GB-Yhe">
+                                        <rect key="frame" x="0.0" y="0.0" width="202.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MZ-Uw-7jD">
+                                        <rect key="frame" x="0.0" y="52" width="202.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Стартуем 🤘"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pepe" translatesAutoresizingMaskIntoConstraints="NO" id="BXS-ux-udi">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Rq5-Jw-tN1"/>
+                                    <constraint firstAttribute="width" constant="100" id="XUY-hv-UwA"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ololoshka" translatesAutoresizingMaskIntoConstraints="NO" id="7aX-Pd-ie1">
+                                <rect key="frame" x="294" y="18" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Neo-uc-UOW"/>
+                                    <constraint firstAttribute="width" constant="65" id="ag4-Jp-MTX"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smart" translatesAutoresizingMaskIntoConstraints="NO" id="zhE-zL-CKj">
+                                <rect key="frame" x="20" y="547" width="80" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="SAn-UO-qx0"/>
+                                    <constraint firstAttribute="height" constant="100" id="cdL-fM-ChM"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resitas" translatesAutoresizingMaskIntoConstraints="NO" id="d5Q-CT-VSG">
+                                <rect key="frame" x="269" y="553" width="90" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="Yea-2m-x83"/>
+                                    <constraint firstAttribute="height" constant="100" id="dkp-Fp-h5Z"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YPz-kf-mtn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HBZ-wc-B9a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zhE-zL-CKj" secondAttribute="bottom" constant="20" id="Q5G-Gh-mss"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d5Q-CT-VSG" secondAttribute="bottom" constant="14" id="TM5-KE-FVF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7aX-Pd-ie1" secondAttribute="trailing" constant="16" id="YnG-zO-hh3"/>
+                            <constraint firstItem="zhE-zL-CKj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kJy-bZ-Sa8"/>
+                            <constraint firstItem="7aX-Pd-ie1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="kXB-vH-hlb"/>
+                            <constraint firstItem="BXS-ux-udi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kbr-Jc-A5h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d5Q-CT-VSG" secondAttribute="trailing" constant="16" id="lyl-H8-nav"/>
+                            <constraint firstItem="BXS-ux-udi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rWF-Ol-eHm"/>
+                            <constraint firstItem="YPz-kf-mtn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="w2m-yA-RqJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ololoshka" width="7913" height="6664"/>
+        <image name="pepe" width="1480" height="832"/>
+        <image name="resitas" width="1067" height="800"/>
+        <image name="smart" width="959" height="881"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
